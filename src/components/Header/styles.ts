@@ -47,7 +47,6 @@ export const styles = {
   },
   mobileMenuItem: {
     mb: '1em'
-    
   },
   mobileHeaderSticky: {
     transition: '0.3s ease',
