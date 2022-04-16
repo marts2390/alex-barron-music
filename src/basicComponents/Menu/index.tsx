@@ -10,12 +10,12 @@ import { styles } from './styles'
 
 interface IMenuComponentProps {
   theme?: string;
-  isSticky: boolean;
+  isSticky?: boolean;
 }
 
 const MenuComponent:FC<IMenuComponentProps> = ({
   theme = 'light',
-  isSticky
+  isSticky = false
 }) => {
   const { activeLink } = useContext(ActiveLinkContext) as ActiveLinkContextModel
 
